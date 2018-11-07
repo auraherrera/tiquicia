@@ -8,7 +8,7 @@ sudo apt update
 # ZSH
 #############
 
-sudo apt install zsh
+sudo apt install zsh -y
 sudo chsh -s $(which zsh) $(whoami)
 
 #############
@@ -17,14 +17,14 @@ sudo chsh -s $(which zsh) $(whoami)
 
 mkdir ~/.antigen
 curl -L git.io/antigen > ~/.antigen/antigen.zsh
-sudo apt install zsh-antigen
+sudo apt install zsh-antigen -y
 curl -L git.io/fpUlD >> ~/.zshrc
 
 #############
 # POWERLINE + VIM
 #############
 
-sudo apt install python-pip
+sudo apt install python-pip -y
 pip install powerline-status
 PWR=$(pip show powerline-status | awk '{print $2}' | grep site-packages)
 
@@ -40,7 +40,7 @@ source ~/.vimrc
 # AWESOME FONTS
 #############
 
-sudo apt install fontconfig
+sudo apt install fontconfig -y
 git clone https://github.com/gabrielelana/awesome-terminal-fonts.git /tmp/awesome-fonts/
 bash /tmp/awesome-fonts/install.sh
 
