@@ -18,7 +18,7 @@ sudo chsh -s $(which zsh) $(whoami)
 mkdir ~/.antigen
 curl -L git.io/antigen > ~/.antigen/antigen.zsh
 sudo apt install zsh-antigen -y
-curl -L git.io/fpUlD >> ~/.zshrc
+curl -L git.io/fpUVR >> ~/.zshrc
 
 #############
 # POWERLINE + VIM
