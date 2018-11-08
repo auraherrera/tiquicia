@@ -18,7 +18,7 @@ sudo chsh -s $(which zsh) $(whoami)
 mkdir ~/.antigen
 curl -L git.io/antigen > ~/.antigen/antigen.zsh
 sudo apt install zsh-antigen -y
-curl -L git.io/fpUVR >> ~/.zshrc
+curl -L git.io/tiquicia_zsh >> ~/.zshrc
 
 #############
 # POWERLINE + VIM
@@ -48,7 +48,7 @@ bash /tmp/awesome-fonts/install.sh
 # TMUX
 #############
 
-curl -L git.io/fpU5w >> ~/.tmux.conf
+curl -L git.io/tiquicia_tmux >> ~/.tmux.conf
 echo -e 'if [ "$TMUX" = "" ]; then $(tmux new -s puravida); fi' >> ~/.zshrc
 
 
