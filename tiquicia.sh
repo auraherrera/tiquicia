@@ -44,3 +44,13 @@ sudo apt install fontconfig -y
 git clone https://github.com/gabrielelana/awesome-terminal-fonts.git /tmp/awesome-fonts/
 bash /tmp/awesome-fonts/install.sh
 
+#############
+# TMUX
+#############
+
+mkdir ~/.tmux_scripts
+
+echo -e 'if [ "$TMUX" = "" ]; then $(tmux new -s puravida); fi' >> ~/.zshrc
+
+
+
