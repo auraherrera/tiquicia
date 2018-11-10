@@ -49,7 +49,7 @@ bash /tmp/awesome-fonts/install.sh
 #############
 
 curl -L git.io/tiquicia_tmux >> ~/.tmux.conf
-echo -e 'if [ "$TMUX" = "" ]; then $(tmux new -s puravida); fi' >> ~/.zshrc
+echo 'if [ "$TMUX" = "" ]; then $(tmux new -s puravida); fi' >> ~/.zshrc
 
 
 
