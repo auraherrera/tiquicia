@@ -18,7 +18,7 @@ antigen bundle chrissicool/zsh-256color
 antigen bundle zsh-users/zsh-syntax-highlighting
 
 # Load the theme.
-antigen theme miloshadzic
+antigen theme af-magic
 
 # Tell Antigen that you're done.
 antigen apply
